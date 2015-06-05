@@ -1,0 +1,7 @@
+# Hide environment from search
+myExtraExcludes = "env,*.pyc,venv"
+excludeInFileChooser  = "{$excludeInFileChooser,$myExtraExcludes}" 
+excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}"
+
+# Python
+TM_PYTHON = "env/bin/python"
